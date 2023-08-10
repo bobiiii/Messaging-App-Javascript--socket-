@@ -9,7 +9,7 @@ function Messages({messages, currUser}) {
           <h3 className="font-semibold text-lg ms-10">
           {currUser.name}
           &nbsp;
-          (<span className="text-green-500 text-sm font-normal"> active now </span>)
+          (<span className="text-green-700 text-sm font-normal"> active now </span>)
           </h3>
         </div>
       </div>

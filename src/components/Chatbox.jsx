@@ -40,7 +40,7 @@ messages:[
 
 function Chatbox() {
   const [people, setPeople] = useState(peopleList)
-  const [currUser, setCurrUser] = useState({})
+  const [currUser, setCurrUser] = useState(peopleList[0])
   
   const [messages, setMessages] = useState(peopleList[0].messages)
   
